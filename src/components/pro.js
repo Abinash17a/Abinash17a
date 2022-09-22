@@ -1,33 +1,28 @@
 import "./Projectcard.css"
-import Timg from "../assets/TExter.png"
-import Dimg from "../assets/drum.png"
 import { NavLink } from "react-router-dom"
-import React from 'react'
+import React from 'react';
 
-const Pro = () => {
+const Pro = (props) => {
   return (
-    <div className="projectcard">
-      <div className="heading">
-        Projects
-      </div>
-      <div className="pcard-container">
+    // <div className="projectcard">
+    //   <div className="pcard-container">
         <div className="pcard">
-           <img className="T-img" src={Timg} alt="Timg"></img>
-           <div className="pro-name">TEXTER</div>
-            <p>Its a online text editor or text analyzer(1st react project) </p>
+           <img className="T-img" src={props.imgsrc} alt="Timg"></img>
+           <div className="pro-name">{props.title}</div>
+            <p>{props.text}</p>
             <NavLink to="/"
                 className="btn pbtn">Source Code</NavLink>
           </div>
-
-        <div className="pcard">
+ 
+        /* <div className="pcard">
             <img className="D-img" src={Dimg} alt="Dimg"></img>
             <div className="pro-name">Drumkit</div>
             <p>Its a web application for playing Full set drum sounds (For Javascript practice) </p>
             <NavLink to="/"
                 className="btn pbtn">Source code</NavLink>
-          </div>
-      </div>
-    </div>
+          </div> */
+    //   </div>
+    // </div>
   )
 }
 

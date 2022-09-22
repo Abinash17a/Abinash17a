@@ -3,12 +3,13 @@
     height: 100%;
     position: relative;
 }
-.Abo-Img{
+.About-img{
 width: 100%;
 height: 100%;
 background-size: cover;
 background-position: center;
 object-fit: cover;
+
 }
 mask::before{
     content: "";
@@ -46,18 +47,21 @@ mask::before{
     text-transform: uppercase;
 }
 @media screen and (max-width: 640px) {
-    .Pro-img{
-    /* width:max-content; */
-     /* object-fit:contain; */
+    .About-img{
      width:100%;
-     height: 100vh;
+     /* height:100vh; */
+     height: 100%;
         }
-    .hero .content{
+        .hero .content{
+            display: none;
+        }
+    /* .hero .content{
         font-size: 3rem;
         padding: 0.6rem 0 1.5rem;
+        top: 30%;
     }
     .hero .content p{
     font-size: 1.4rem;
-    }   
+    }    */
     
 }

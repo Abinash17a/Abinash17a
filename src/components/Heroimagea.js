@@ -10,7 +10,7 @@ const Heroimagea = () => {
         <img className="About-img" src={AboImg} alt="AboImg"/>
     </div>
     <div className="content">
-        <h1>About Us</h1>
+        <h1>About</h1>
         <p>Its about who i am </p>
         </div>
 </div>

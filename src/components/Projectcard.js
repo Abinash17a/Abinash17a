@@ -1,7 +1,6 @@
 import "./Projectcard.css"
-import Timg from "../assets/TExter.png"
-import Dimg from "../assets/drum.png"
-import { NavLink } from "react-router-dom"
+import Card from "./pro";
+import prodata from "./prodata";
 import React from 'react'
 
 const Projectcard = () => {
@@ -11,21 +10,17 @@ const Projectcard = () => {
         Projects
       </div>
       <div className="pcard-container">
-        <div className="pcard">
-           <img className="T-img" src={Timg} alt="Timg"></img>
-           <div className="pro-name">Enter project name</div>
-            <p>About Project </p>
-            <NavLink to="/"
-                className="btn pbtn">Source Code</NavLink>
-          </div>
-
-        <div className="pcard">
-            <img className="D-img" src={Dimg} alt="Dimg"></img>
-            <div className="pro-name">Enter project name</div>
-            <p>About Project</p>
-            <NavLink to="/"
-                className="btn pbtn">Source code</NavLink>
-          </div>
+        {prodata.map((val,ind)=>{
+          return(
+            <Card
+            key={ind}
+            imgsrc={val.imgsrc}
+            title={val.title}
+            text={val.text}
+            view={val.view}
+            />
+          );
+        })}
       </div>
     </div>
   )
