@@ -1,5 +1,5 @@
 <h1 align="center">Hi , I'm Abinash Chhetri</h1>
-<h3 align="center">Hi There, I’m a Front-End Web Developer. It's been 1 years,since I've learnt Web developement.I have been part of some very good web design projects. I m currently Pursuing Bachelor of Technology in Information Technology. My Skill Set : HTML5, CSS3, JavaScript,BootStrap. I'm also learning Back-End Development(MERN)and looking forward to be a Full Stack Web Developer.</h3>
+<h3 align="center">Hi There, I’m a Full Stack Web Developer. It's been 1 years,since I've learnt Web developement.I have been part of some very good web design projects. I m currently Pursuing Bachelor of Technology in Information Technology. My Skill Set : HTML5, CSS3, JavaScript,BootStrap. I'm also learning Back-End Development(MERN)and looking forward to be a Full Stack Web Developer.</h3>
 
 
 <h3 align="left">Connect with me:</h3>
