@@ -3,7 +3,7 @@
   Hi There, I’m a Full Stack Web Developer.Having experince of 1 year in this domain.
   <br>
   <strong>My Skill Set:</strong> HTML5, CSS3, JavaScript, Bootstrap.<br>
-  I'm also learning Back-End Development (MERN) and looking forward to becoming a Full Stack Web Developer.
+ Learning some new domains as well
 </h3>
 
 <h3 align="left">Connect with me:</h3>
